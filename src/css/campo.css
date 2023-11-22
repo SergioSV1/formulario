@@ -1,0 +1,33 @@
+.campo{
+    position: relative;
+    width: 167px;
+    height: 34px;
+}
+
+.campo img {
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    top:50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.campo input {
+    width: 167px;
+    height: 34px;
+    
+    border: 1px solid rgba(172, 172, 172, 0.60);
+    background: rgba(252, 216, 207, 0.20);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 35px;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#324F87;
+    outline: none;
+}
+
+.campo input::placeholder{
+    font-size: .8rem;
+    color: rgb(69, 69, 69);
+}

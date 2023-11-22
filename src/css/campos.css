@@ -1,0 +1,15 @@
+.campos{
+    display: flex;
+    width: 344px;
+    margin-top: 19px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 19px 10px;
+    flex-wrap: wrap;
+}
+
+.infoError{
+    background: rgba(172, 14, 14, 0.2); 
+    background: crimson; 
+    font-size: .5rem;
+}

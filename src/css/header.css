@@ -1,0 +1,28 @@
+header {
+    width: 383px;
+    height: 104px;
+
+    border-radius: 20px 20px 0px 0px;
+    background: url(../img/Logistics1.jpg);
+}
+
+header h2 {
+    position: relative;
+    top:20px;
+    color: #F3F3FB;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.80);
+    font-family: Inter;
+    font-size: 1,4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;    
+}
+
+header img {
+    position: absolute;
+    left:20px;
+    top:56px;
+    width: 39px;
+    height: 48px;
+}
